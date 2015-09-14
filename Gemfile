@@ -4,7 +4,7 @@ gemspec
 
 case version = ENV['MONGOID_VERSION'] || "~> 3.1"
 when /5/
-  gem "mongoid", "~> 5.0.0.rc0"
+  gem "mongoid", "~> 5"
 when /4/
   gem "mongoid", :github => 'mongoid/mongoid'
 when /3/
